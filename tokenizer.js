@@ -110,3 +110,5 @@ function TokenStream(input) {
         return peek() == null;
     }
 }
+
+module.exports = TokenStream

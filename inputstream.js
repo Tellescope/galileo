@@ -21,3 +21,5 @@ function InputStream(input) {
         throw new Error(msg + "(" + line + ":" + col + ")");
     }
 }
+
+module.exports = InputStream

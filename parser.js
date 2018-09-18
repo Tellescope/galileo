@@ -134,3 +134,5 @@ function parse(input) {
         });
     }
 }
+
+module.exports = parse
